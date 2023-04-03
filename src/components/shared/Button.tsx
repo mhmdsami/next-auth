@@ -4,6 +4,7 @@ interface ButtonProps {
   children: ReactNode;
   onClick: () => void;
 }
+
 const Button = ({ children, onClick }: ButtonProps) => (
   <button
     onClick={onClick}

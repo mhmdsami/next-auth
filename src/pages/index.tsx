@@ -4,6 +4,7 @@ import { useSession } from "next-auth/react";
 
 const Home = () => {
   const { data } = useSession();
+
   return (
     <>
       <Head>
