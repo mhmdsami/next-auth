@@ -26,7 +26,7 @@ const LoginButton = () => {
     );
   } else {
     return (
-      <Button onClick={() => signIn()}>
+      <Button onClick={() => signIn("github")}>
         <BsGithub className="w-6 h-6" />
         Sign in
       </Button>
